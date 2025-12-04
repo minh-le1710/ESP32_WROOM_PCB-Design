@@ -1,6 +1,6 @@
 ﻿# BTL_ESP32-20251203T134206Z-1-001 CO2104
 
-Repository này chứa dự án Altium của mạch điều khiển dựa trên **ESP32**, dùng cho bài tập lớn môn Điện tử cơ bản / Embedded & Control.
+Repository này chứa dự án Altium của mạch điều khiển dựa trên **ESP32**, BTL môn Mạch điện - Điện tử TN CO2104
 
 Bo mạch tích hợp:
 
@@ -35,23 +35,20 @@ Chức năng chính:
 
 Thiết kế được chia thành nhiều sheet tương ứng các khối chức năng.
 
-### 2.1. Nguồn 3.3 V
+### 2.1. ESP32 Core
 
 ![3.3V Regulator](Image/Schematic8.png)
 
-### 2.2. Mạch cảm biến dòng
+### 2.2. Switch
 
 ![Current Sensor Circuit](Image/Schematic7.png)
 
-### 2.3. Giao tiếp RS485
+### 2.3. Cảm biến dòng
 
 ![RS485 Circuit](Image/Schematic6.png)
 
-### 2.4. Khối ESP32 & các đầu nối
 
-![ESP32 Core](Image/Schematic3.png)
-
-### 2.5. LED & DIP switch
+### 2.4. Nguồn 3.3V
 
 ![LEDs & Switches](Image/Schematic5.png)
 
